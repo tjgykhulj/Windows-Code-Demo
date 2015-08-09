@@ -11,4 +11,4 @@ lib entry.obj malloc.obj printf.obj stdio.obj string.obj ctors.obj new_delete.ob
 Run test.c :<br>
 cl /c /DWIN32 /GR- test.cpp <br>
 link test.obj minicrt.lib kernel32.lib /NODEFAULTLIB /entry:mini_crt_entry<br>
-test.exe
+test.exe<br>
